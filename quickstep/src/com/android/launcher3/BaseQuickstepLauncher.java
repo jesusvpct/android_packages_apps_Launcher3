@@ -426,8 +426,7 @@ public abstract class BaseQuickstepLauncher extends Launcher
 
     @Override
     public boolean supportsAdaptiveIconAnimation(View clickedView) {
-        return mAppTransitionManager.hasControlRemoteAppTransitionPermission()
-                && FeatureFlags.ADAPTIVE_ICON_WINDOW_ANIM.get();
+        return mAppTransitionManager.hasControlRemoteAppTransitionPermission();
     }
 
     @Override
