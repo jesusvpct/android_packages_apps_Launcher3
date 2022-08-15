@@ -290,4 +290,6 @@
     <string name="show_quickspace_title">At A Glance wannabe</string>
     <string name="show_quickspace_summary">At A Glance wannabe - toggle switch in case message doesn\'t update.</string>
     <string name="abbrev_wday_month_day_no_year" translatable="false">EEEEMMMd</string>
+    
+    <string name="qsb_search_hint" translatable="false">Searching for something?</string>
 </resources>
